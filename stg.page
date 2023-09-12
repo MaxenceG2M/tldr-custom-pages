@@ -22,3 +22,7 @@
 
 `stg show {{patch_name}}`
 
+- Clean a branch
+
+`stg branch --cleanup {{banch_name}}`
+`stg branch --delete {{banch_name}}`
