@@ -1,0 +1,8 @@
+- Tail the staging namespace excluding logs from istio-proxy container
+`stern -n staging --exclude-container istio-proxy .`
+- Tail the kube-system namespace excluding logs from kube-apiserver pod
+`stern -n kube-system --exclude-pod kube-apiserver .`
+- Tail the pods filtered by run=nginx label selector across all namespaces
+`stern --all-namespaces -l run=nginx`
+- Pipe the log message to jq:
+`stern backend -o json | jq .`
