@@ -1,0 +1,24 @@
+# Useful Docker Aliases
+
+> A fork and adaption of: https://gist.github.com/jgrodziski/9ed4a17709baad10dbcd4530b60dfcbb
+
+`dex <container>: execute a bash shell inside the RUNNING <container>`
+`drun <image>   : execute a bash shell in NEW container from <image>`
+`di <container> : docker inspect <container>`
+`dim            : docker images`
+`dip            : IP addresses of all running containers`
+`dl <container> : docker logs -f <container>`
+`dnames         : names of all running containers`
+`dps            : docker ps`
+`dpsa           : docker ps -a`
+`drmc           : remove all exited containers`
+`drmid          : remove all dangling images`
+`dsp            : remove all unused images`
+`drmi <string>  : remove all image with <string> in name`
+`dsr <container>: stop then remove <container>`
+`dc             : docker compose`
+`dcps           : docker compose`
+`dup            : docker compose up`
+`dcu            : docker compose up -d`
+`dcd            : docker compose down`
+`dcr            : docker compose run`
