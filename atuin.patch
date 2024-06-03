@@ -1,0 +1,9 @@
+- Swith to inspect mode
+
+`Ctrl-o`
+
+- Delete command (in inspect mode)
+
+`Ctrl-d`
+
+- [R18](https://blog.atuin.sh/release-v18/)
